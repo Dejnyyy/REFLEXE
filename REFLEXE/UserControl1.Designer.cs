@@ -59,9 +59,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "UserControl1";
+            this.Size = new System.Drawing.Size(148, 148);
             this.Load += new System.EventHandler(this.UserControl1_Load);
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UserControl1_MouseClick);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

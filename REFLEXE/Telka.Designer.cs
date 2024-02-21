@@ -60,9 +60,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Telka";
+            this.Size = new System.Drawing.Size(148, 148);
             this.Load += new System.EventHandler(this.Telka_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
